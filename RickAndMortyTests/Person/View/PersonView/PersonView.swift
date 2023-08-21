@@ -180,7 +180,6 @@ class PersonView: UIView {
     }
     
     func update(character: Result) {
-        print(character)
         personNameLabel.text = character.name ?? ""
         personStatusLabel.text = character.status?.rawValue ?? ""
         personImageView.load(stringUrl: character.image ?? "")
