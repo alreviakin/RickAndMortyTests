@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "843BFA04-030B-4585-A97B-7ECC700C79AA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "178A62B6-85DA-4CCB-A3EE-34269F36B0C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RickAndMortyTests/Person/PersonViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getEpisodeCellViewModel(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "178A62B6-85DA-4CCB-A3EE-34269F36B0C6 - 89b45a5896982bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMortyTests.PersonViewModel.getEpisodeCellViewModel(for: Foundation.IndexPath) -&gt; RickAndMortyTests.EpisodeCellViewModel"
+                  moduleName = "RickAndMortyTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejrevakin/Desktop/swift/RickAndMortyTests/RickAndMortyTests/Person/PersonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "652">
+               </Location>
+               <Location
+                  uuid = "178A62B6-85DA-4CCB-A3EE-34269F36B0C6 - 89b45a5896982bbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RickAndMortyTests.PersonViewModel.getEpisodeCellViewModel(for: Foundation.IndexPath) -&gt; RickAndMortyTests.EpisodeCellViewModel"
+                  moduleName = "RickAndMortyTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejrevakin/Desktop/swift/RickAndMortyTests/RickAndMortyTests/Person/PersonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
