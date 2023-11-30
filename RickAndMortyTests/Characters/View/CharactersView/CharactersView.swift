@@ -48,6 +48,8 @@ class CharactersView: UIView {
     }
     
     func reloadData() {
-        collectionView.reloadData()
+        DispatchQueue.main.async {
+            self.collectionView.reloadData()
+        }
     }
 }

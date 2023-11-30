@@ -26,6 +26,7 @@ class CharactersViewController: UIViewController {
         mainView.configure()
         configure()
         guard let viewModel else { return }
+        viewModel.delegate = self
     }
     
     private func configure() {
@@ -79,6 +80,10 @@ extension CharactersViewController: CharactersViewDelegate {
 
 extension CharactersViewController: CharactersViewControllerDelegate {
     func reloadeDate() {
+        guard let viewModel else {
+            return
+        }
+        print(viewModel.characters.count)
         mainView.reloadData()
     }
 }
